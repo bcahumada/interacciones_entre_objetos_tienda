@@ -17,11 +17,12 @@ Total de la venta
 Mensajes informativos: El sistema proporciona mensajes claros al usuario en diferentes situaciones, como:
 Stock insuficiente
 Producto no encontrado
-Superación del límite de unidades en farmacias
+Superación del límite de unidades a vender en farmacias
 Almacenamiento de datos: Las tiendas creadas y sus productos se almacenan en memoria durante la ejecución del programa.
 
 ### Cómo ejecutar el programa
-Asegúrate de tener Python instalado en tu sistema.
+#### Requisitos
+Python 3.x 
 Descarga los archivos tienda.py , producto.py y programa.py.
 Ejecuta el archivo programa.py desde la terminal: python programa.py
 
@@ -33,15 +34,9 @@ programa.py: Contiene el código principal del programa, incluyendo el menú int
 producto.py: Contiene la clase Producto que representa un producto con nombre, precio y stock.
 
 
-### Posibles mejoras
-Persistencia de datos: Implementar un sistema para guardar los datos de las tiendas y productos de forma permanente (por ejemplo, en un archivo o base de datos).
-Interfaz gráfica: Crear una interfaz gráfica de usuario (GUI) para una mejor experiencia de usuario.
-Más tipos de tiendas: Añadir más tipos de tiendas con sus propias reglas y lógica de negocio.
-Gestión de usuarios: Implementar un sistema de autenticación para diferentes roles de usuario (administrador, vendedor, etc.).
-
 
 ### Autor
 
 Bárbara HA
 
-Github: 
+Github: https://github.com/bcahumada/
